@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ASC.DataAccess\ASC.DataAccess.csproj" />
     <ProjectReference Include="..\ASC.Utilities\ASC.Utilities.csproj" />
     <ProjectReference Include="..\ClassLibrary1\ASC.Model.csproj" />
   </ItemGroup>
